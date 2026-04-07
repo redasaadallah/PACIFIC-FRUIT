@@ -1,0 +1,63 @@
+.bottom{
+    width: 100%;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 5%;
+
+}
+.bottom1{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-evenly;
+}
+.bottom1>*{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    margin-bottom: 5%;
+}
+.bottom img{
+    height: 40px;
+    width:40px;
+
+}
+.info{
+    font-size: clamp(1rem,1.2vw,2rem);
+
+    text-align: center;
+    color: white;
+}
+
+.bottom2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+#logobottom{
+    width: 20%;
+    min-width: 200px;
+    height: 100px;
+}
+.rights{
+    font-family: "Kreon";
+    color: #FFFFFF;
+    font-size: medium;
+}
+@media (max-width: 900px)  {
+    .bottom{
+        border-radius: 50px 50px 0 0;
+        box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.1);
+        padding-top: 5%;
+
+    }
+}
