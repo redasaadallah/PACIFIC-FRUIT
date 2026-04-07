@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PACIFIC-FRUIT/static/css/main.520da18f.css",
+    "main.css": "/PACIFIC-FRUIT/static/css/main.5ad91b53.css",
     "main.js": "/PACIFIC-FRUIT/static/js/main.34ea19e1.js",
     "static/js/453.4dfe8d4e.chunk.js": "/PACIFIC-FRUIT/static/js/453.4dfe8d4e.chunk.js",
     "static/media/img1.jpg": "/PACIFIC-FRUIT/static/media/img1.dd7aba53060cda91869b.jpg",
@@ -37,12 +37,12 @@
     "static/media/send.png": "/PACIFIC-FRUIT/static/media/send.eb5e54a9f8e39f2cfe91.png",
     "static/media/close.png": "/PACIFIC-FRUIT/static/media/close.15cb0cb59fa7e615326f.png",
     "index.html": "/PACIFIC-FRUIT/index.html",
-    "main.520da18f.css.map": "/PACIFIC-FRUIT/static/css/main.520da18f.css.map",
+    "main.5ad91b53.css.map": "/PACIFIC-FRUIT/static/css/main.5ad91b53.css.map",
     "main.34ea19e1.js.map": "/PACIFIC-FRUIT/static/js/main.34ea19e1.js.map",
     "453.4dfe8d4e.chunk.js.map": "/PACIFIC-FRUIT/static/js/453.4dfe8d4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.520da18f.css",
+    "static/css/main.5ad91b53.css",
     "static/js/main.34ea19e1.js"
   ]
 }
