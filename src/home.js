@@ -25,7 +25,8 @@ function Home(){
                       setshow(1);
                   },2000);
               },[]);
-   return(<>
+   return(
+   <>
    {show===0?<Loader/>:<>
     <Header at={0} atphone={0}/>
     <Main back={back}/>
@@ -51,7 +52,7 @@ function Home(){
         <div>
             <div>
             <hr/>
-            <h1> Comment <span class="span">ça</span> marche <span class="span">?</span></h1>
+            <h1> Comment <span className="span">ça</span> marche <span className="span">?</span></h1>
             </div>
             <h3>Un processus simple et rapide</h3>
         </div>
@@ -87,7 +88,7 @@ function Home(){
         <div>
             <div>
             <hr/>
-            <h1>Pourquoi <span class="span">nous</span> choisir <span class="span">?</span></h1>
+            <h1>Pourquoi <span className="span">nous</span> choisir <span className="span">?</span></h1>
             </div>
         </div>
         <div>
@@ -105,6 +106,8 @@ function Home(){
        </div>
         <Upfooter/>
         <Footer/></>}
-    </>);
+    </>
+    
+    );
 }
 export default Home;
