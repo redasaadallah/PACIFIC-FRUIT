@@ -130,7 +130,6 @@
 #home3>div:last-of-type{
     width: 90%;
     height: auto;
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -140,7 +139,7 @@
 }
 #home3>div:last-of-type div{
     width: 25%;
-    max-width: 370px;
+    max-width: 300px;
     min-width: 160px;
     height: 400px;
     display: flex;
