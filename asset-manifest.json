@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PACIFIC-FRUIT/static/css/main.b82f5b24.css",
-    "main.js": "/PACIFIC-FRUIT/static/js/main.eee3e91c.js",
+    "main.css": "/PACIFIC-FRUIT/static/css/main.a8dc2b97.css",
+    "main.js": "/PACIFIC-FRUIT/static/js/main.c1e89208.js",
     "static/js/453.97f1ce30.chunk.js": "/PACIFIC-FRUIT/static/js/453.97f1ce30.chunk.js",
     "static/media/img1.jpg": "/PACIFIC-FRUIT/static/media/img1.dd7aba53060cda91869b.jpg",
     "static/media/home1.jpg": "/PACIFIC-FRUIT/static/media/home1.0ed80572aa7a1cf06bfb.jpg",
@@ -11,6 +11,7 @@
     "static/media/img2.png": "/PACIFIC-FRUIT/static/media/img2.74c51bc72536e4f539e5.png",
     "static/media/img6.jpg": "/PACIFIC-FRUIT/static/media/img6.570b09b593bf3a1a5afa.jpg",
     "static/media/mission.png": "/PACIFIC-FRUIT/static/media/mission.1fa72ee694bfc88b5782.png",
+    "static/media/imgcon7.png": "/PACIFIC-FRUIT/static/media/imgcon7.f7e0d2b3b72614883a6b.png",
     "static/media/imgcontact1.png": "/PACIFIC-FRUIT/static/media/imgcontact1.324d9c9e38b2ca78ba39.png",
     "static/media/img4.png": "/PACIFIC-FRUIT/static/media/img4.bdf2a4d6689fa04f5d25.png",
     "static/media/logo.png": "/PACIFIC-FRUIT/static/media/logo.bf47bded45286e9c1c4c.png",
@@ -45,12 +46,12 @@
     "static/media/imgcon3.png": "/PACIFIC-FRUIT/static/media/imgcon3.1408d41373e3aaed6c2b.png",
     "static/media/close.png": "/PACIFIC-FRUIT/static/media/close.15cb0cb59fa7e615326f.png",
     "index.html": "/PACIFIC-FRUIT/index.html",
-    "main.b82f5b24.css.map": "/PACIFIC-FRUIT/static/css/main.b82f5b24.css.map",
-    "main.eee3e91c.js.map": "/PACIFIC-FRUIT/static/js/main.eee3e91c.js.map",
+    "main.a8dc2b97.css.map": "/PACIFIC-FRUIT/static/css/main.a8dc2b97.css.map",
+    "main.c1e89208.js.map": "/PACIFIC-FRUIT/static/js/main.c1e89208.js.map",
     "453.97f1ce30.chunk.js.map": "/PACIFIC-FRUIT/static/js/453.97f1ce30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b82f5b24.css",
-    "static/js/main.eee3e91c.js"
+    "static/css/main.a8dc2b97.css",
+    "static/js/main.c1e89208.js"
   ]
 }
