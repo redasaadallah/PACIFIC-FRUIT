@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"; // ← make sur
 import ProtectedRoute from "./ProtectedRoute";
 import Loader from "./composants/loader"
 import "./App.css"
-
+import Contact from "./contact";
 import Home from "./home"
 import Apropos from "./apropos"
 function App() {
@@ -20,9 +20,11 @@ function App() {
     <Routes>
     <Route path="/" element={<Splash/>} />
     <Route path="/home" element={<Home/>} />
-        <Route path="/apropos" element={<Apropos/>} />
+    <Route path="/apropos" element={<Apropos/>} />
+    <Route path="/contact" element={<Contact/>} />
 
     </Routes>
+    
     </>
   );
 }

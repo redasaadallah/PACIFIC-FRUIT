@@ -12,6 +12,7 @@ import infofilled from "../img/infofilled.png"
 import contact from "../img/contact.png"
 import booking from "../img/booking.png"
 import cancel from "../img/cancel.png"
+import contactfilled from "../img/contactfilled.png"
 import { useState } from "react"
 import {useNavigate} from "react-router-dom"
 
@@ -27,10 +28,10 @@ function Header({at,atphone}){
         <img onClick={()=>{setshow(1)}} src={menu} alt=""/>
         {showR===1 && <div id="menuR"><div></div><img onClick={()=>{setshowR(0);}} src={close} /><div></div><button>Accéder à ma réservation</button><button>Réserver un espace</button></div>}
         <div>
-        <button onClick={()=>{at!==0 && navigate("/home")}} style={at === 0 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Accueil</button>
+        <button onClick={()=>{navigate("/home")}} style={at === 0 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Accueil</button>
         <button onClick={()=>{navigate("/apropos")}} style={at === 1 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>À propos</button>
         <button style={at === 2 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Réservation</button>    
-        <button style={at === 3 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Contact</button>
+        <button onClick={()=>{navigate("/contact")}} style={at === 4 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Contact</button>
         </div>
         <button><img src={france} alt=""/>France <img src={arow} alt=""/></button>
      </div>
@@ -45,7 +46,7 @@ function Header({at,atphone}){
                 <button onClick={()=>{atphone!==0 && navigate("/home")}} id={atphone===0?"atphone":"natphone"} ><img src={atphone===0?homefilled:homevide}/>Accueil</button>
                 <button onClick={()=>{atphone!==1 && navigate("/apropos")}} id={atphone===1?"atphone":"natphone"}><img src={atphone===1?infofilled:info}/>À propos</button>
                 <button onClick={()=>{setshowR(1)}}><img src={booking}/>Réservation</button>
-                <button><img src={contact}/>Contact</button>
+                <button onClick={()=>{atphone!==4 && navigate("/contact")}} id={atphone===4?"atphone":"natphone"}><img src={atphone===4?contactfilled:contact}/>Contact</button>
                 {showR===1&&
                 <div>
                     <img onClick={()=>{setshowR(0)}} src={cancel}/>
