@@ -14,6 +14,7 @@ import location from "./img/imgcon4.png"
 import linkedin from "./img/imgcon5.png"
 import web from "./img/imgcon6.png"
 import imgcon7 from "./img/imgcon7.png"
+import Message from "./composants/message";
 function Contact(){
     const navigate=useNavigate();
         const [show,setshow]=useState(0);
@@ -23,6 +24,7 @@ function Contact(){
                       },2000);
                   },[]);
     return(<>
+    
     {show===0?<Loader/>:<>
     <Header at={4} atphone={4}/>
     <Main back={img7}/>

@@ -7,6 +7,7 @@ import "./App.css"
 import Contact from "./contact";
 import Home from "./home"
 import Apropos from "./apropos"
+import Reservation from "./reservation";
 function App() {
   const[splash,setsplash]=useState(0);
       useEffect(()=>{
@@ -17,14 +18,15 @@ function App() {
   const [step, setstep]=useState(1);
   return (
     <>
-    <Routes>
+    {/* <Routes>
     <Route path="/" element={<Splash/>} />
     <Route path="/home" element={<Home/>} />
     <Route path="/apropos" element={<Apropos/>} />
     <Route path="/contact" element={<Contact/>} />
 
-    </Routes>
+    </Routes> */}
     
+      <Reservation/>
     </>
   );
 }
