@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/PACIFIC-FRUIT/static/css/main.b90128bd.css",
-    "main.js": "/PACIFIC-FRUIT/static/js/main.44eb74a8.js",
+    "main.css": "/PACIFIC-FRUIT/static/css/main.515cff5c.css",
+    "main.js": "/PACIFIC-FRUIT/static/js/main.d3aca1a1.js",
     "static/js/453.97f1ce30.chunk.js": "/PACIFIC-FRUIT/static/js/453.97f1ce30.chunk.js",
+    "static/media/img11.jpg": "/PACIFIC-FRUIT/static/media/img11.6028e0973849fb28effe.jpg",
     "static/media/img1.jpg": "/PACIFIC-FRUIT/static/media/img1.dd7aba53060cda91869b.jpg",
     "static/media/img8.jpg": "/PACIFIC-FRUIT/static/media/img8.0a9f8dabd99ec9c11316.jpg",
+    "static/media/img9.jpg": "/PACIFIC-FRUIT/static/media/img9.b5aa3332e8b284e5d401.jpg",
+    "static/media/img10.jpg": "/PACIFIC-FRUIT/static/media/img10.6c00f71e51c527743d69.jpg",
     "static/media/home1.jpg": "/PACIFIC-FRUIT/static/media/home1.0ed80572aa7a1cf06bfb.jpg",
     "static/media/img7.jpg": "/PACIFIC-FRUIT/static/media/img7.608cd167bae4e485afa3.jpg",
     "static/media/img3.jpg": "/PACIFIC-FRUIT/static/media/img3.c0e30fb18459220701c9.jpg",
@@ -27,6 +30,7 @@
     "static/media/leaf.png": "/PACIFIC-FRUIT/static/media/leaf.ea223a43672161872e00.png",
     "static/media/polices.png": "/PACIFIC-FRUIT/static/media/polices.28dc7a0735713b255f9b.png",
     "static/media/availability.png": "/PACIFIC-FRUIT/static/media/availability.a60fea588b5d3d768246.png",
+    "static/media/forgot.png": "/PACIFIC-FRUIT/static/media/forgot.956b4996433506e07d26.png",
     "static/media/arroba.png": "/PACIFIC-FRUIT/static/media/arroba.47eab21b71b95cb65f92.png",
     "static/media/phone.png": "/PACIFIC-FRUIT/static/media/phone.dcdb1e5806845b1256e2.png",
     "static/media/location.png": "/PACIFIC-FRUIT/static/media/location.c051c8f3a5bcbe17c51e.png",
@@ -40,19 +44,21 @@
     "static/media/imgcon5.png": "/PACIFIC-FRUIT/static/media/imgcon5.82ca147644b3cfdb93a5.png",
     "static/media/boking.png": "/PACIFIC-FRUIT/static/media/boking.6a4519391a77e2264231.png",
     "static/media/contact.png": "/PACIFIC-FRUIT/static/media/contact.48d461dc68f3720a8d7f.png",
+    "static/media/add-product.png": "/PACIFIC-FRUIT/static/media/add-product.05c3d128fd87a3699c67.png",
     "static/media/infofilled.png": "/PACIFIC-FRUIT/static/media/infofilled.b07166a970a5654f7435.png",
     "static/media/imgcon2.png": "/PACIFIC-FRUIT/static/media/imgcon2.7a7f052f39f53804a431.png",
     "static/media/booking.png": "/PACIFIC-FRUIT/static/media/booking.c63e722679496d896377.png",
     "static/media/send.png": "/PACIFIC-FRUIT/static/media/send.eb5e54a9f8e39f2cfe91.png",
+    "static/media/send1.png": "/PACIFIC-FRUIT/static/media/send1.0f8a6bb7bb0a3038adc6.png",
     "static/media/imgcon3.png": "/PACIFIC-FRUIT/static/media/imgcon3.1408d41373e3aaed6c2b.png",
     "static/media/close.png": "/PACIFIC-FRUIT/static/media/close.15cb0cb59fa7e615326f.png",
     "index.html": "/PACIFIC-FRUIT/index.html",
-    "main.b90128bd.css.map": "/PACIFIC-FRUIT/static/css/main.b90128bd.css.map",
-    "main.44eb74a8.js.map": "/PACIFIC-FRUIT/static/js/main.44eb74a8.js.map",
+    "main.515cff5c.css.map": "/PACIFIC-FRUIT/static/css/main.515cff5c.css.map",
+    "main.d3aca1a1.js.map": "/PACIFIC-FRUIT/static/js/main.d3aca1a1.js.map",
     "453.97f1ce30.chunk.js.map": "/PACIFIC-FRUIT/static/js/453.97f1ce30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b90128bd.css",
-    "static/js/main.44eb74a8.js"
+    "static/css/main.515cff5c.css",
+    "static/js/main.d3aca1a1.js"
   ]
 }
