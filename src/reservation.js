@@ -9,18 +9,26 @@ import img5 from "./img/img5.jpg"
 import "./styles/reservation.css"
 import img8 from "./img/img8.jpg"
 import login from "./img/login.png"
-
+import img9 from "./img/img9.jpg"
+import img10 from "./img/img10.jpg"
+import img11 from "./img/home1.jpg"
+import Oublier from "./composants/oublier";
 function Reservation(){
     const navigate=useNavigate();
     const [show,setshow]=useState(0);
+    const [oublier,setoublier]=useState(false);
+    const forgot=()=>{
+        setoublier(true)
+    }
     useEffect(()=>{
                     setTimeout(()=>{
                         setshow(1);
                     },2000);
                 },[]);
     return(<>
+    {oublier && <Oublier onClose={()=>{setoublier(false)}}/>}
         {show===0?<Loader/>:<>
-    <Header at={3} atphone={3}/>
+    <Header at={2} atphone={2} at1={1}/>
     <Main back={img5}/>
     {/* ================================================ */}
     <div id="res1">
@@ -37,28 +45,26 @@ function Reservation(){
         </div>
         <div>
         <div className="wave-group">
-        <input required  type="number" className="input" name="venale" />
+        <input required  type="text" className="input" name="venale" />
         <span className="bar"></span>
         <label className="label">
         <span className="label-char" style={{ "--index": 0 }}>CIN</span>
         </label>
-        
-        
         </div>
         <div className="wave-group">
-        <input required  type="number" className="input" name="venale" />
+        <input required  type="text" className="input" name="venale" />
         <span className="bar"></span>
         <label className="label">
         <span className="label-char" style={{ "--index": 0 }}>Code de réservation</span>
         </label>
        
         </div>
-        <button>Code de réservation oublié ?</button>
+        <button type="button" onClick={()=>{ forgot()}}>Code de réservation oublié ?</button>
         </div>
         <div>
             <button>Accéder à ma réservation</button>
             <hr/>
-            <button>Contactez-nous</button>
+            <button type="button">Contactez-nous</button>
         </div>
     </form>
     {/* ================================================ */}
@@ -75,16 +81,16 @@ function Reservation(){
             </div>
             <div>
                  <div>
-                <img src={img8}/>
+                <img src={img9}/>
                 <p>Confirmation rapide</p>
             </div>
              <div>
-                <img src={img8}/>
+                <img src={img10}/>
                 <p>Conditions optimales de conservation</p>
             </div>
             </div>
              <div>
-                <img src={img8}/>
+                <img src={img11}/>
                 <p>Espaces adaptés à vos besoins</p>
             </div>
         </div>

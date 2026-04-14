@@ -16,7 +16,7 @@ import contactfilled from "../img/contactfilled.png"
 import { useState } from "react"
 import {useNavigate} from "react-router-dom"
 
-function Header({at,atphone}){
+function Header({at,atphone,at1}){
     const [show,setshow]=useState(0);
     const [showR,setshowR]=useState(0);
     const navigate=useNavigate();
@@ -26,11 +26,11 @@ function Header({at,atphone}){
         <div ></div>
         <img src={logo} alt=""/>
         <img onClick={()=>{setshow(1)}} src={menu} alt=""/>
-        {showR===1 && <div id="menuR"><div></div><img onClick={()=>{setshowR(0);}} src={close} /><div></div><button>Accéder à ma réservation</button><button>Réserver un espace</button></div>}
+        {showR===1 && <div onMouseLeave={()=>{setshowR(0)}} id="menuR"><button style={at1 === 1 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}} onClick={()=>{navigate("/reservation")}}>Accéder à ma réservation</button><button style={at1 === 2 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}} onClick={()=>{navigate("/demander")}}>Réserver un espace</button></div>}
         <div>
         <button onClick={()=>{navigate("/home")}} style={at === 0 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Accueil</button>
         <button onClick={()=>{navigate("/apropos")}} style={at === 1 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>À propos</button>
-        <button style={at === 2 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Réservation</button>    
+        <button onMouseEnter={()=>{setshowR(1)}}  style={at === 2 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Réservation</button>    
         <button onClick={()=>{navigate("/contact")}} style={at === 4 ? { color: "#0A8D47",borderBottom:"solid 2px #0A8D47" } : {}}>Contact</button>
         </div>
         <button><img src={france} alt=""/>France <img src={arow} alt=""/></button>
@@ -50,8 +50,8 @@ function Header({at,atphone}){
                 {showR===1&&
                 <div>
                     <img onClick={()=>{setshowR(0)}} src={cancel}/>
-                    <button>Accéder à ma réservation</button>
-                    <button>Réserver un espace</button>
+                    <button onClick={()=>{navigate("/reservation")}}>Accéder à ma réservation</button>
+                    <button onClick={()=>{navigate("/demander")}}>Réserver un espace</button>
                 </div>}
             </div>
             <button><img src={france} alt=""/>France <img src={arow} alt=""/></button>
