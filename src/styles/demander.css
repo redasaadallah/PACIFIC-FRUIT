@@ -1,6 +1,7 @@
 #dem1{
     width: 95%;
     margin: 0 auto;
+    background-color: red;
 }
 #dem1>h1{
     width: 100%;
@@ -15,8 +16,7 @@
     border-radius: 50px;
     border: solid 2px #0A8D47;
     width: 400px;
-    max-width: 30vw;
-    
+    max-width: 30vw; 
 }
 #dem1>h3{
      width: 100%;

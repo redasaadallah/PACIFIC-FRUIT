@@ -10,6 +10,14 @@ import Apropos from "./apropos"
 import Reservation from "./reservation";
 import Demander from "./demander";
 import Baradmin from "./composants/baradmin";
+import LoginAdmin from "./loginadmin";
+import Dashboard from "./dashboard";
+import Ouinon from "./composants/ouinon";
+import Repondre from "./composants/repondre";
+import Admindemande from "./admindemande";
+import Adminreservation from "./adminreservation";
+import Statistic from "./statistic";
+import Espaceclient from "./espaceclient";
 function App() {
   const[splash,setsplash]=useState(0);
       useEffect(()=>{
@@ -27,10 +35,17 @@ function App() {
     <Route path="/contact" element={<Contact/>} />
     <Route path="/reservation" element={<Reservation/>}/>
     <Route path="/demander" element={<Demander/>}/>
+    <Route path="/admin" element={<LoginAdmin/>}/>
+    <Route path="/dashboard" element={<Dashboard/>}/>
+    <Route path="/admindemande" element={<Admindemande/>}/>
+    <Route path="/adminreservation" element={<Adminreservation/>}/>
+    <Route path="/statistic" element={<Statistic/>}/>
+    <Route path="/espaceclient" element={<Espaceclient/>}/>
     </Routes>
-    {/* <Baradmin/> */}
     
     </>
+    
+    
   );
 }
 

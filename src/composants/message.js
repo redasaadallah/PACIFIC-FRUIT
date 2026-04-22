@@ -5,7 +5,7 @@ function Message(){
     <div id="black"></div>
     <div id="success">
         <img src={logoo}/>
-        <h1>Merci pour votre message</h1>
+        <h1>Merci pour votre confiance</h1>
         <h3>Votre demande a été envoyée avec succès.<br/> Notre équipe vous répondra dans les plus brefs délais.</h3>
     </div>
     </>);

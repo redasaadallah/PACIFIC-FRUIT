@@ -85,10 +85,10 @@ function Demander(){
          <div className="reda">
         <label className='option'>Nom du produit :</label>
         <select  className='filiereetu' name="marque"  >
-            <option>Toyota</option>
-            <option>Renault</option>
-            <option>Peugeot</option>
-            <option>Hyundai</option>
+            <option>fruit</option>
+            <option>fruit</option>
+            <option>fruit</option>
+            <option>fruit</option>
 
         </select>
         </div>

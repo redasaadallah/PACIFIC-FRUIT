@@ -25,6 +25,9 @@ function Reservation(){
                         setshow(1);
                     },2000);
                 },[]);
+    const onhandlesubmit=()=>{
+        navigate("/espaceclient")
+    }
     return(<>
     {oublier && <Oublier onClose={()=>{setoublier(false)}}/>}
         {show===0?<Loader/>:<>
@@ -38,7 +41,7 @@ function Reservation(){
         </div>
         <h3>Si votre demande de réservation a déjà été acceptée, vous pouvez accéder à votre espace client pour consulter les détails de votre réservation.</h3>
     </div>
-    <form id="formres">
+    <form onSubmit={onhandlesubmit} id="formres">
         <div>
             <img src={login}/>
             <h3>Connexion à votre espace</h3>
@@ -62,9 +65,9 @@ function Reservation(){
         <button type="button" onClick={()=>{ forgot()}}>Code de réservation oublié ?</button>
         </div>
         <div>
-            <button>Accéder à ma réservation</button>
+            <button  >Accéder à ma réservation</button>
             <hr/>
-            <button type="button">Contactez-nous</button>
+            <button  type="button">Contactez-nous</button>
         </div>
     </form>
     {/* ================================================ */}

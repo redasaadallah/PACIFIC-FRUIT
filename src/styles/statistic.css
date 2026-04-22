@@ -1,0 +1,341 @@
+#statistic1{
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+#statistic1 h1{
+    width: 100%;
+    font-size: clamp(2rem,2vw,4rem);
+    font-weight: lighter;
+}
+#statistic1 button{
+color: rgb(255, 255, 255);
+    width:15%;
+    border: none;
+    min-width: 200px;
+    max-width: 500px;
+    height: 50px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+}
+#statistic1 img{
+    width: 25px;
+}
+#statistic2{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#statistic2>div:first-of-type{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#statistic2>div:first-of-type>div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 15px;
+}
+#statistic2>div:first-of-type>div>div{
+        width: 50%;
+        height: 200px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        border-left: solid 5px #3B97C9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+#statistic2>div:first-of-type>div:first-of-type>div:last-of-type{
+    border: none;
+    
+}
+#statistic2>div:first-of-type>div:first-of-type>div:last-of-type div{
+    width: 180px;
+    height: 180px;
+    background: conic-gradient(
+    #4caf50 0% 40%,
+    #f18a04 40% 100%
+    
+  );
+    
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#statistic2>div:first-of-type>div:first-of-type>div:last-of-type div h1{
+    color: white;
+    font-size: clamp(0.8rem,1.5vw,3rem);
+}
+
+#statistic2>div:first-of-type>div>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+#statistic2>div:first-of-type>div>div>div:last-of-type{
+    justify-content: center;
+    gap: 5px;
+}
+#statistic2>div:first-of-type>div>div p{
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+}
+#statistic2>div:first-of-type>div>div img{
+    width: 50px;
+}
+#statistic2>div:first-of-type>div>div h1{
+    font-size: clamp(0.8rem,2vw,3rem);
+    
+}
+#statistic2>div:first-of-type>div>div h1:first-of-type{
+    margin-block: 10px;
+}
+#statistic2>div:first-of-type>div>div>div div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3B97C9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+}
+/* ================================================================= */
+#statistic2>div:last-of-type{
+    width: 60%;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#statistic2>div:last-of-type>h1{
+    font-size: clamp(1rem,2vw,4rem);
+    font-weight: lighter;
+}
+#statistic2>div:last-of-type>div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#statistic2>div:last-of-type>div:first-of-type>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#statistic2>div:last-of-type>div:first-of-type>div h3{
+    font-size: clamp(1rem,1.1vw,2rem);
+    font-weight: lighter;
+}
+#statistic2>div:last-of-type>div:first-of-type>div>div{
+    flex-grow: 1;
+    
+}
+#statistic2>div:last-of-type>div:first-of-type hr{
+    border: solid 3px blue;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    margin-top: -15px;
+
+}
+#statistic2>div:last-of-type>div:first-of-type>div:nth-of-type(2) hr{
+   border: none;
+    height: 6px;
+    background: linear-gradient(to right, red 0%,red 50%, blue 50%,blue 80%, #E8E8E8 80%);
+
+}
+#statistic2>div:last-of-type>div:first-of-type>div:last-of-type hr{
+    border: none;
+    height: 6px;
+    background: linear-gradient(to right, red 0%,red 50%, blue 50%,blue 80%, #E8E8E8 80%);
+
+}
+#statistic2>div:last-of-type>div:last-of-type{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#statistic2>div:last-of-type>div:last-of-type table{
+    width: 70%;
+    
+    
+}
+#statistic2>div:last-of-type>div:last-of-type td{
+    font-size: clamp(1rem,1.1vw,2rem);
+    font-weight: lighter;
+    
+
+}
+#statistic2>div:last-of-type>div:last-of-type tr td:first-of-type{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
+
+#statistic2>div:last-of-type>div:last-of-type td h3{
+ font-size: clamp(1rem,1.1vw,2rem);
+    font-weight: lighter;
+}
+#statistic2>div:last-of-type>div:last-of-type td div{
+    width: 20px;
+    height: 20px;
+    background-color: #0A8D47;
+    border-radius: 50%;
+    
+}
+#statistic2>div:last-of-type>div:last-of-type>div{
+    width: 30%;
+    display: flex;
+    align-items: end;
+}
+#statistic2>div:last-of-type>div:last-of-type>div button{
+    color: rgb(255, 255, 255);
+    width:100%;
+    border: none;
+    min-width: 200px;
+    max-width: 500px;
+    height: 50px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+}
+/* ================================================================= */
+#statistic3{
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+    gap: 20px;
+    display: flex;
+    margin-block: 1%;
+}
+#statistic3>div:first-of-type{
+    width: 60%;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+
+}
+#statistic3>div:first-of-type>div:first-of-type{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 5px;
+}
+#statistic3>div:first-of-type>div:first-of-type>h3{
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+}
+#statistic3>div:first-of-type>div:first-of-type button{
+   color: rgb(255, 255, 255);
+    width:100%;
+    border: none;
+    min-width: 200px;
+    max-width: 500px;
+    height: 50px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+#statistic3>div:first-of-type>div:first-of-type>div{
+    display: flex;
+    gap: 5px;
+}
+#statistic3>div:first-of-type>div:last-of-type{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#statistic3>div:first-of-type>div:last-of-type>div{
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+#statistic3>div:first-of-type>div:last-of-type>div{
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+}
+#statistic3>div:first-of-type>div:last-of-type>div>div{
+    background-color: #F0B11F;
+    width: 60px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    margin-block: -15px;
+
+    
+}
+/* ====================================================== */
+#statistic3>div:last-of-type{
+    width: 40%;
+    height: 400px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+
+}
+#statistic3>div:last-of-type>h3{
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+}
+#statistic3>div:last-of-type>table{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+#statistic3>div:last-of-type tr:first-of-type{
+    background-color:#FFE489 ;
+   
+    
+}
+#statistic3>div:last-of-type th,#statistic3>div:last-of-type td{
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    font-weight: lighter;
+    text-align: center;
+    height: 45px;
+}
+#statistic3>div:last-of-type td{
+    border-bottom: solid 2px #F0B11F;
+}
+#statistic3>div:last-of-type th:first-of-type{
+    border-radius: 10px 0 0px 10px;
+}
+#statistic3>div:last-of-type th:last-of-type{
+    border-radius: 0px 10px 10px 0px;
+}

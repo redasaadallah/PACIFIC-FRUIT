@@ -1,0 +1,161 @@
+#ademande1{
+    width: 90%;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#ademande1 h1{
+     width: 100%;
+    font-size: clamp(1rem,2vw,6rem);
+    font-weight: lighter;
+}
+#ademande1 p{
+     width: 100%;
+    font-size: clamp(1rem,1vw,2rem);
+    font-weight: lighter;
+    margin-top: -30px;
+}
+#ademande1>div{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 6%;
+}
+#ademande1>div>div{
+    width: 40%;
+}
+#ademande1>div>div:first-of-type{
+    width: 30%;
+}
+#ademande1>div>div:last-of-type{
+    display: flex;
+    align-items: center;
+    
+}
+#ademande1 input[type="checkbox"]{
+    margin-left: 20px;
+}
+
+#ademande2{
+    width: 90%;
+    margin-left: 10%;
+}
+
+#ademande2 table{
+    width: 90%;
+    border-collapse:collapse ;
+    border-bottom:solid 2px #0A8D47 ;
+    margin-left: 3%;
+
+
+}
+#ademande2 th{
+    
+    font-size: clamp(1rem,0.8vw,2rem);
+    font-weight: lighter;
+    padding-block: 10px;
+
+    
+
+}
+#ademande2 td{
+    
+    font-size: clamp(1rem,1vw,2rem);
+    font-weight: lighter;
+    text-align: center;
+    border-top:solid 2px #0A8D47 ;
+    padding-block: 10px;
+
+}
+
+#ademande2 table button{
+    background-color: #F2BC47;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    padding: 5px 15px;
+    border: none;
+    font-size: clamp(1rem,1vw,6rem);
+    font-weight: lighter;
+}
+#ademande2 tr td:last-of-type{
+    text-align: right;
+}
+
+#detailsdemande table{
+    width: 100%;
+    border: none;
+}
+#detailsdemande td{
+    border: none;
+    text-align: left;
+}
+#detailsdemande tr td:last-of-type{
+    text-align: left;
+
+}
+
+#detailsdemande h3{
+    font-size: clamp(1rem,1.5vw,6rem);
+    font-weight: lighter;
+    text-align: left;
+}
+#detailsdemande>div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#detailsdemande>div:first-of-type>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+}
+#detailsdemande>div:first-of-type>div h5{
+font-size: clamp(1rem,1.3vw,6rem);
+    font-weight: lighter;
+    text-align: left;
+}
+#detailsdemande>div:first-of-type>div div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#detailsdemande>div:first-of-type>div img{
+width: 25px;
+height: 25px;
+
+}
+#detailsdemande>div:first-of-type>div button{
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+#detailsdemande>div:first-of-type>div label{
+font-size: clamp(1rem,1vw,6rem);
+    font-weight: lighter;
+    text-align: left;
+}
+#detailsdemande>div:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+#detailsdemande>div:last-of-type button:first-of-type{
+    background-color: #47F280;
+}
+#detailsdemande>div:last-of-type button:nth-of-type(2){
+    background-color: #F27147;
+}
+
+

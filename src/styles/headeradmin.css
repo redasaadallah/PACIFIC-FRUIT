@@ -1,0 +1,90 @@
+#ha{
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background-color: white;
+}
+#ha>div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 0px;
+    width: 100%;
+    
+}
+#ha>div:first-of-type>div:first-of-type{
+        padding-top: 40px;
+}
+#ha>div:first-of-type>div:first-of-type hr{
+    width: 150px;
+    max-width: 30vw;
+    text-align: left;
+    border-radius: 50px;
+    margin-right: 85%;
+    margin-bottom: -6%;
+    border: solid 3px #0A8D47;
+}
+#ha>div:first-of-type>div:first-of-type h1{
+    width: 100%;
+    text-align: left;
+    border-radius: 50px;
+    font-size: clamp(1.8rem,2vw,6rem);
+    font-weight: lighter;
+    margin-bottom: -6%;
+
+}
+#ha>div:first-of-type>div:first-of-type p{
+    width: 100%;
+    text-align: left;
+    border-radius: 50px;
+    font-size: clamp(1rem,1.2vw,2rem);
+    font-weight: lighter;
+}
+#ha>div:first-of-type>div:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+#ha>div:first-of-type>div:last-of-type button:first-of-type{
+     color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 45px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    font-size: clamp(0.8rem,1vw,2rem);
+    border: none;
+}
+#ha>div:first-of-type>div:last-of-type button:last-of-type{
+     background-color: rgb(255, 255, 255);
+    min-width: 100px;
+    max-width: 150px;
+    height: 45px;
+    z-index: 1;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    font-family: 'Playfair Display', serif;
+      font-size: clamp(1rem, 1vw, 5rem);
+    margin-right: 40px;
+
+}
+
+#ha img{
+    width: 25px;
+}
+

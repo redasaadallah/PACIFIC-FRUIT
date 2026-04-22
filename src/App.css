@@ -4,7 +4,9 @@
 
 
 /* -------------------------------------splash========================================= */
-
+button:hover{
+    cursor: pointer;
+}
 .bien{
     text-align: center;
   font-size: clamp(4rem, 10vw, 12rem);

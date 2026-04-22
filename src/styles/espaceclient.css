@@ -1,0 +1,390 @@
+#cheader{
+    width: 95%;
+    padding-inline: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    padding-top: 10px;
+    z-index: 100;
+}
+#cheader>div:first-of-type{
+    display: flex;
+    align-items: center;
+}
+#cheader>div:first-of-type>img{
+    width: 70px;
+}
+#cheader>div:first-of-type>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cheader>div:first-of-type>div hr{
+    width: 100px;
+    max-width: 20vw;
+    text-align: left;
+    border-radius: 50px;
+    margin-bottom: 0px;
+    margin-right: 89%;
+    
+    border: solid 3px #0A8D47;
+}
+#cheader>div:first-of-type>div h1{
+    font-size: clamp(1.5rem,2vw,3rem);
+    font-weight: lighter;
+    margin-block: 0px;
+}
+#cheader>div:first-of-type>div p{
+    font-size: clamp(1rem,1vw,2rem);
+    font-weight: lighter;
+    margin-block: 0px;
+}
+#cheader>div:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#cheader button:first-of-type{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 45px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    font-size: clamp(0.8rem,1vw,2rem);
+    border: none;
+}
+#cheader>div:last-of-type img{
+    width: 25px;
+}
+#cheader button:last-of-type{
+    background-color: rgb(255, 255, 255);
+    min-width: 100px;
+    max-width: 150px;
+    height: 45px;
+    z-index: 1;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1rem, 1vw, 5rem);
+   
+}
+#cbien{
+    margin-top: 120px;
+    width: 95%;
+    margin-inline: auto ;
+    
+}
+#cbien>h1{
+    font-size: clamp(1.3rem,2vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+}
+#cbien>h3{
+    font-size: clamp(0.7rem,1.3vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+    
+}
+/* ============================================= */
+#client1{
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+#client1>div:first-of-type{
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-width: 330px;
+    min-height: 250px;
+
+}
+#client1>div>div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#client1>div>div:first-of-type h1{
+    font-size: clamp(1.5rem,2vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+}
+#client1>div>div:first-of-type img{
+    width: 50px;
+    height: 50px;
+}
+#client1>div:first-of-type>div:last-of-type{
+    width: 100%;
+}
+#client1>div:first-of-type>div:last-of-type h3{
+    font-size: clamp(1rem,1.2vw,3rem);
+    font-weight: lighter;
+    
+}
+#client1>div:first-of-type>div:last-of-type div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#client1>div:first-of-type>div:last-of-type div h3{
+    margin: 0;
+}
+#client1>div:first-of-type>div:last-of-type div button{
+    
+    
+    background: none;
+    border: none;
+}
+#client1>div:first-of-type>div:last-of-type div img{
+    width: 40px;
+}
+/* ================================== */
+#client1>div:last-of-type{
+    width: 65%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-width: 330px;
+}
+#client1>div:last-of-type>div:last-of-type{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#client1>div:last-of-type>div:last-of-type>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+}
+#client1>div:last-of-type>div:last-of-type>div h3{
+    font-size: clamp(1rem,1.2vw,3rem);
+    font-weight: lighter;
+}
+/* ==================================== */
+#client2{
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#client2>div:first-of-type{
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-width: 330px;
+    min-height: 300px;
+
+}
+
+#client2>div>div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#client2>div>div:first-of-type h1{
+    font-size: clamp(1.5rem,2vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+}
+#client2>div>div:first-of-type img{
+    width: 50px;
+    height: 50px;
+}
+#client2>div:first-of-type>div:last-of-type{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#client2>div:first-of-type>div:last-of-type div{
+    width: 30px;
+    height: 30px;
+    background-color: #39EF6A;
+    border-radius: 5px;
+}
+#client2>div:first-of-type>div:last-of-type h3{
+    font-size: clamp(1.2rem,1.5vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+    
+
+}
+#client2>div:first-of-type p{
+    font-size: clamp(0.8rem,0.9vw,3rem);
+    margin: 0;
+    width: 100%;
+}
+#client2>div:first-of-type>h3{
+    font-size: clamp(0.8rem,1.2vw,3rem);
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#client2>div:first-of-type>button{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 45px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    width: 70%;
+    min-width: 200px;
+    font-size: clamp(0.8rem,1vw,2rem);
+    border: none;
+    margin-bottom: 20px;
+}
+/* =========================================== */
+#client2>div:last-of-type{
+    width: 65%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-width: 330px;
+    min-height: 300px;
+}
+#client2>div:last-of-type>div:last-of-type{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#client2>div:last-of-type>div:last-of-type>div{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 320px;
+   
+}
+#client2>div:last-of-type>div:last-of-type>div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 320px;
+}
+#client2>div:last-of-type>div:last-of-type>div>div:last-of-type div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+#client2>div:last-of-type>div:last-of-type>div h3{
+    font-size: clamp(1.3rem,1.5vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+    text-align: center;
+    
+}
+#client2>div:last-of-type>div:last-of-type>div p{
+    font-size: clamp(1rem,1.3vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+}
+#client2>div:last-of-type>div:last-of-type>div button{
+    width: 40px;
+    height: 40px;
+    background-color: #F2BC47;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#client2>div:last-of-type>div:last-of-type>div img{
+    width: 30px;
+    height: 30px;
+    
+}
+/* ============================================= */
+#recu{
+    width: 93%;
+    margin-inline: auto;
+    margin-block: 20px;
+}
+#recu>div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    min-width: 350px;
+}
+#recu h3{
+    font-size: clamp(1.1rem,1.5vw,3rem);
+    font-weight: lighter;
+    margin: 0;
+}
+#recu button{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 40px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    width: 20%;
+    min-width: 200px;
+    font-size: clamp(0.8rem,1vw,2rem);
+    border: none;
+    margin-inline: auto;
+}
+#recu p{
+    font-size: clamp(0.8rem,1vw,3rem);
+    font-weight: lighter;
+}
+@media (max-width:400px) {
+    #cheader>div:last-of-type{
+        display: none;
+    }
+}

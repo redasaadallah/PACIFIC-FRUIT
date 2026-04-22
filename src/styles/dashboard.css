@@ -1,0 +1,203 @@
+#s1{
+    width: 90%;
+    
+    margin-top: 200px;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+gap: 20px;
+}
+#s1>div:first-of-type{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#s1>div:first-of-type>div{
+    width: 20%;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    border-left: solid 5px #0A8D47;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#s1>div:first-of-type>div>h1{
+    width: 100%;
+    text-align: center;
+    font-size: clamp(1.8rem,1.8vw,6rem);
+    font-weight: lighter;
+}
+#s1>div:first-of-type>div>div:first-of-type{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+#s1>div:first-of-type>div>div:first-of-type h1{
+     width: 100%;
+    text-align: center;
+    font-size: clamp(1.8rem,4vw,6rem);
+    font-weight: bolder;
+}
+#s1>div:first-of-type>div>div:first-of-type h3{
+     width: 100%;
+    text-align: center;
+    font-size: clamp(1rem,1vw,6rem);
+    font-weight: lighter;
+}
+#s1>div:first-of-type>div>div:last-of-type{
+    width: 90%;
+}
+#s1>div:first-of-type>div>div:last-of-type img{
+    width: 50px;
+}
+
+#s1>div:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    
+}
+#s1>div:last-of-type button{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 45px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    font-size: clamp(0.8rem,1vw,2rem);
+    border: none;
+}
+/* ----------------------------------------------- */
+#s2{
+    width: 80%;
+    margin: 2% auto;
+    margin-left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#s2>div{
+    width: 50%;
+    height: 400px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#s2>div>div:first-of-type{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#s2>div>div:first-of-type img{
+    width: 80px;
+}
+#s2>div>div:first-of-type h3{
+     width: 100%;
+    font-size: clamp(1rem,1.5vw,6rem);
+    font-weight: lighter;
+    margin-bottom: -5%;
+}
+#s2>div>div:first-of-type p{
+     width: 100%;
+    font-size: clamp(1rem,1vw,6rem);
+    font-weight: lighter;
+}
+#s2 table{
+    width: 95%;
+}
+#s2 table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-block: solid 1px #0A8D47;
+
+}
+#s2 table td{
+    font-size: clamp(1rem,1.2vw,6rem);
+    font-weight: lighter;
+    padding-block: 10px;
+}
+#s2 .status{
+    background-color: #82E3EC;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+
+}
+#s2 .type{
+    background-color: #F2BC47;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+
+
+}
+#s2>div:last-of-type{
+    justify-content: flex-start;
+}
+#s2 .afficher{
+    background-color: #95EC82;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border: none;
+    font-size: clamp(1rem,1.2vw,6rem);
+    font-weight: lighter;
+    
+}
+#s2 .supprimer{
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border: none;
+    font-size: clamp(1rem,1.2vw,6rem);
+    font-weight: lighter;
+    
+
+}
+#s2>div:first-of-type>div:last-of-type{
+    width: 97%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+#s2>div:first-of-type>div:last-of-type button{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 45px;
+    background-image: linear-gradient(90deg,#0A8D47,#144B24);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    font-size: clamp(0.8rem,1vw,2rem);
+    border: none;
+}
